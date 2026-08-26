@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 12px;
+}
+
+/* Logo */
+.logo {
+    width: 18%;
+    background-color: #f7bd8b;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Website Name */
+.website {
+    background-color: #f7bd8b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.nav {
+    background-color: #f9e4d2;
+    font-size: 20px;
+    height: 35px;
+}
+
+/* CSE, ECE, EEE, CIVIL */
+.courses {
+    width: 18%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Description */
+.description {
+    font-size: 22px;
+    height: 150px;
+    vertical-align: middle;
+}
