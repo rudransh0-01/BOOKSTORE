@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e9;
+    margin: 0;
+}
+
+.topbar {
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 60px;
+    vertical-align: middle;
+}
+
+.navbar {
+    background-color: #e0a458;
+    text-align: center;
+    padding: 8px;
+}
+
+.navbar a {
+    color: #1b263b;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.heading {
+    text-align: center;
+    color: #1b263b;
+}
+
+.register-form {
+    background-color: white;
+    border: 1px solid black;
+    width: 320px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form select,
+.register-form textarea {
+    width: 90%;
+    padding: 6px;
+    margin-top: 3px;
+}
+
+.register-form input[type="radio"],
+.register-form input[type="checkbox"] {
+    width: auto;
+}
+
+.register-form button {
+    background-color: #1b263b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
