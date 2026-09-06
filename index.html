@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GL Bajaj Book Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <img src="college-logo.jpg" alt="GL Bajaj Logo" class="logo">
+    <h1>GL BAJAJ BOOK STORE</h1>
+  </header>
+
+  
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#login">Login</a>
+    <a href="#registration">Registration</a>
+    <a href="#catalogue">Catalogue</a>
+    <a href="#cart">Cart</a>
+  </nav>
+
+  
+  <section id="home" class="page-section">
+    <div class="page-wrapper">
+      <main>
+        <h2>Welcome to GL BAJAJ BOOK STORE</h2>
+        <p>
+          GL BAJAJ BOOK STORE is built for students. Browse technology books,
+          check the catalogue, add books to your cart and create an account.
+          Use the navigation bar above to move between sections on this page.
+        </p>
+      </main>
+      <aside class="branches">
+        <h3>Branches</h3>
+        <a href="#catalogue" class="branch-link">CSE</a>
+<a href="#catalogue" class="branch-link">ECE</a>
+<a href="#catalogue" class="branch-link">EEE</a>
+<a href="#catalogue" class="branch-link">CIVIL</a>
+      </aside>
+    </div>
+    <footer class="site-footer">
+      <p>Rudransh Rai</p>
+      <p>Roll No - 2501920110317</p>
+    </footer>
+  </section>
+
+  
+  <section id="login" class="page-section">
+    <div class="page-wrapper">
+      <main class="center-form">
+        <div class="form-box">
+          <h2>Member Login</h2>
+
+          <label for="username">User Name</label>
+          <input type="text" id="username" placeholder="Enter your username">
+
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password">
+
+          <div class="btn-row">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </main>
+      <aside class="branches">
+        <h3>Branches</h3>
+        <a href="#catalogue" class="branch-link">CSE</a>
+<a href="#catalogue" class="branch-link">ECE</a>
+<a href="#catalogue" class="branch-link">EEE</a>
+<a href="#catalogue" class="branch-link">CIVIL</a>
+      </aside>
+    </div>
+    <footer class="site-footer">
+      <p>Rudransh Rai</p>
+      <p>Roll No - 2501920110317</p>
+    </footer>
+  </section>
+
+  
+  <section id="registration" class="page-section">
+    <div class="page-wrapper">
+      <main class="center-form">
+        <div class="form-box">
+          <h2>Registration Form</h2>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+
+          <label for="pass">Password:</label>
+          <input type="password" id="pass">
+
+          <label for="email">E-mail ID:</label>
+          <input type="email" id="email">
+
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone">
+
+          <label>Sex:</label>
+          <div class="inline-options">
+            <input type="radio" name="sex" id="male"> <label for="male">Male</label>
+            <input type="radio" name="sex" id="female"> <label for="female">Female</label>
+          </div>
+
+          <label>Date of Birth:</label>
+          <div class="inline-options">
+            <select><option>01</option><option>02</option><option>03</option></select>
+            <select><option>Jan</option><option>Feb</option><option>Mar</option></select>
+            <select><option>2005</option><option>2004</option><option>2003</option></select>
+          </div>
+
+          <label>Languages Known:</label>
+          <div class="inline-options">
+            <input type="checkbox" id="eng"> <label for="eng">English</label>
+            <input type="checkbox" id="tel"> <label for="tel">Telugu</label>
+            <input type="checkbox" id="hin"> <label for="hin">Hindi</label>
+            <input type="checkbox" id="tam"> <label for="tam">Tamil</label>
+          </div>
+
+          <label for="address">Address:</label>
+          <textarea id="address" rows="3"></textarea>
+
+          <div class="btn-row">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </main>
+      <aside class="branches">
+        <h3>Branches</h3>
+        <a href="#catalogue" class="branch-link">CSE</a>
+<a href="#catalogue" class="branch-link">ECE</a>
+<a href="#catalogue" class="branch-link">EEE</a>
+<a href="#catalogue" class="branch-link">CIVIL</a>
+      </aside>
+    </div>
+    <footer class="site-footer">
+      <p>Rudransh Rai</p>
+      <p>Roll No - 2501920110317</p>
+    </footer>
+  </section>
+
+  
+  <section id="catalogue" class="page-section">
+    <div class="page-wrapper">
+      <main>
+        <h2>Book Catalogue</h2>
+        <table class="book-table">
+          <tr>
+            <th>Cover</th><th>Book Name</th><th>Author</th><th>Publisher</th><th>Price</th><th>Action</th>
+          </tr>
+          <tr>
+            <td><img src="c.jpg" alt="C Programming Language" class="book-cover"></td>
+            <td>The C Programming Language</td>
+            <td>Brian W. Kernighan</td>
+            <td>Prentice Hall</td>
+            <td>320.00</td>
+            <td><button>Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td><img src="clean code.jpg" alt="Clean Code" class="book-cover"></td>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>Pearson</td>
+            <td>450.00</td>
+            <td><button>Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td><img src="computer networks.jpg" alt="Computer Networks" class="book-cover"></td>
+            <td>Computer Networks</td>
+            <td>Andrew S. Tanenbaum</td>
+            <td>Pearson</td>
+            <td>500.00</td>
+            <td><button>Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td><img src="python.jpg" alt="Python Crash Course" class="book-cover"></td>
+            <td>Python Crash Course</td>
+            <td>Eric Matthes</td>
+            <td>No Starch Press</td>
+            <td>700.00</td>
+            <td><button>Add to Cart</button></td>
+          </tr>
+        </table>
+      </main>
+      <aside class="branches">
+        <h3>Branches</h3>
+        <a href="#catalogue" class="branch-link">CSE</a>
+<a href="#catalogue" class="branch-link">ECE</a>
+<a href="#catalogue" class="branch-link">EEE</a>
+<a href="#catalogue" class="branch-link">CIVIL</a>
+      </aside>
+    </div>
+    <footer class="site-footer">
+      <p>Rudransh Rai</p>
+      <p>Roll No - 2501920110317</p>
+    </footer>
+  </section>
+
+  
+  <section id="cart" class="page-section">
+    <div class="page-wrapper">
+      <main>
+        <h2>Your Shopping Cart</h2>
+        <table class="book-table">
+          <tr>
+            <th>Cover</th><th>Book Name</th><th>Price</th><th>Quantity</th><th>Amount</th>
+          </tr>
+          <tr>
+            <td><img src="c.jpg" alt="C Programming Language" class="book-cover"></td>
+            <td>The C Programming Language</td>
+            <td>320.00</td>
+            <td>1</td>
+            <td>320.00</td>
+          </tr>
+          <tr>
+            <td><img src="clean code.jpg" alt="Clean Code" class="book-cover"></td>
+            <td>Clean Code</td>
+            <td>450.00</td>
+            <td>1</td>
+            <td>450.00</td>
+          </tr>
+          <tr>
+            <td><img src="computer networks.jpg" alt="Computer Networks" class="book-cover"></td>
+            <td>Computer Networks</td>
+            <td>500.00</td>
+            <td>1</td>
+            <td>500.00</td>
+          </tr>
+          <tr>
+            <td><img src="python.jpg" alt="Python Crash Course" class="book-cover"></td>
+            <td>Python Crash Course</td>
+            <td>700.00</td>
+            <td>2</td>
+            <td>1400.00</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="total-label">Total Amount</td>
+            <td>2670.00</td>
+          </tr>
+        </table>
+        <div class="checkout-row">
+          <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+      </main>
+      <aside class="branches">
+        <h3>Branches</h3>
+        <a href="#catalogue" class="branch-link">CSE</a>
+<a href="#catalogue" class="branch-link">ECE</a>
+<a href="#catalogue" class="branch-link">EEE</a>
+<a href="#catalogue" class="branch-link">CIVIL</a>
+      </aside>
+    </div>
+    <footer class="site-footer">
+      <p>Rudransh Rai</p>
+      <p>Roll No - 2501920110317</p>
+    </footer>
+  </section>
+
+</body>
+</html>
