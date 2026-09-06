@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f0e6;
+  color: #222;
+}
+
+
+.page-section {
+  min-height: calc(100vh - 130px);
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px dashed #ccc;
+}
+
+.page-section:last-child {
+  border-bottom: none;
+}
+
+
+.site-header {
+  background-color: #1b2a4a;
+  color: #e8a33d;
+  padding: 15px;
+  text-align: center;
+}
+
+.site-header .logo {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.site-header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #e0a458;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #1b2a4a;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Page layout ===== */
+.page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h2 {
+  margin-bottom: 15px;
+  color: #1b2a4a;
+  text-align: center;
+}
+
+/* ===== Forms (Login + Registration) ===== */
+main.center-form {
+  align-items: center;
+}
+
+.form-box {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #999;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1b2a4a;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box input[type="email"],
+.form-box textarea,
+.form-box select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #aaa;
+}
+
+.inline-options {
+  margin-top: 6px;
+}
+
+.inline-options input {
+  margin-right: 4px;
+}
+
+.btn-row {
+  margin-top: 20px;
+}
+
+.btn-row button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #1b2a4a;
+  color: #e8a33d;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-row button:hover {
+  opacity: 0.9;
+}
+
+/* ===== Tables (Catalogue + Cart) ===== */
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.book-table th, .book-table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-table th {
+  background-color: #1b2a4a;
+  color: white;
+}
+
+.book-cover {
+  width: 50px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.book-table button {
+  padding: 6px 10px;
+  background-color: white;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.book-table button:hover {
+  background-color: #eee;
+}
+
+.total-label {
+  text-align: right;
+  font-weight: bold;
+}
+
+.checkout-row {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: #1b2a4a;
+  color: #e8a33d;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  opacity: 0.9;
+}
+
+/* ===== Branches sidebar ===== */
+.branches {
+  width: 180px;
+  background-color: #d9e2f3;
+  padding: 15px;
+  margin: 20px;
+}
+
+.branches h3 {
+  margin-bottom: 10px;
+  color: #1b2a4a;
+}
+
+.branch-link {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid #333;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+}
+
+.branch-link:hover {
+  background-color: #eee;
+}
+
+/* ===== Footer (appears at the bottom of every section) ===== */
+.site-footer {
+  background-color: #1b2a4a;
+  color: #e8a33d;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
